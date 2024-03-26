@@ -1,0 +1,99 @@
+@charset "UTF-8";
+
+@font-face {
+    font-family: 'droide';
+    src: url('fontes/idroid.otf') format(opentype);
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family:'neue' ;
+    src: url('fontes/BebasNeue-Regular.ttf') format(opentype);
+    font-weight: normal;
+    font-style: normal;
+}
+body{
+    font-family:'neue', Helvetica, sans-serif;
+    background-color: rgb(245, 227, 202);
+}
+header#cabeça{
+    background-image: linear-gradient(to bottom, #3DDB6F, #122802) ;
+    padding: 10px;
+    margin: auto;
+    box-shadow: 0px 3px 10px rgba(0, 0, 0, 0.495);
+    
+}
+header > section{
+    text-align: center;
+    color: white;
+}
+
+header > section > h1{
+    font-size: 30px;
+}
+
+nav > a {
+    text-decoration: none;
+    color: #90ee90;
+    padding: 10px;
+}
+nav > a:hover{
+    text-decoration: underline;
+}
+
+article{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(253, 245, 245);
+    padding: 10px;
+    margin: 0px 80px;
+    box-shadow: 5px 0px 8px rgba(0, 0, 0, 0.471);
+    border-radius: 0px 0px 10px 10px;
+}
+
+article > h1{
+font-family: 'droide', times, serif;
+font-size: 2em;
+font-weight: normal;
+color: rgb(2, 99, 2);
+}
+
+article > h2 {
+    color:rgb(2, 99, 2) ;
+    font-family: 'droide', times, serif;
+    background-image: linear-gradient(to right, #90ee90, rgb(212, 243, 190)) ;
+}
+article > picture {
+    margin: center;
+    text-align: center;
+}
+section > h2 {
+    background-color: rgb(2, 99, 2);
+    padding: 200px;
+    margin:0px 80px ;
+    text-align: center;
+}
+section > iframe {
+  margin: 150px ;
+}
+article{
+    background-color: white;
+    margin: 0px 80px;
+}
+article > header{
+   background-color: rgb(2, 99, 2);
+   border-radius: 50px;
+   color: white;
+}
+
+article > section {
+    background-color: lightgreen;
+    border-radius: 10px;
+}
+footer{
+    background-color: rgb(2, 99, 2);
+    text-align: center;
+    margin: auto auto;
+    padding: 1px ;
+    color: white;
+}
