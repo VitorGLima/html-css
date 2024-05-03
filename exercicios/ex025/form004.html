@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>exemplo de formulario</h1>
+    <form action="cadastro.js" method="get" autocomplete="on">
+        <p> 
+            <label for="iemail">e-mail</label>
+            <input type="email" name="email" id="iemail"required>
+            <!--n percebe se o e-mail existe, apenas se é um e-mail-->
+        </p>
+        <p>
+            <label for="itel">Telefone</label>
+            <input type="tel" nome="Telefone" id="itel" autocomplete="tel" required>
+        </p>
+        <p>
+            <input type="submit" value="enviar">
+            <input type="reset" value="limpar">
+        </p>
+    </form>  
+</body>
+</html>
