@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <link rel="stylesheet" href="estilos/style.css" media="all">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Meu Site</h1>
+        <i id="burguer" class="material-icons" onclick="clickMenu()">menu</i>
+        <menu id="itens">
+            <ul>
+                <li><a href="#">link</a></li>
+                <li><a href="#">link</a></li>
+                <li><a href="#">link</a></li>
+                <li><a href="#">link</a></li>
+                <li><a href="#">link</a></li>
+            </ul>
+        </menu>
+    </header>
+    <main>
+        <article>
+            <h2>Testando Media Queries</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem totam reiciendis non doloribus quis quae reprehenderit quos ullam, voluptatum, nisi laboriosam sunt fugiat eum incidunt eaque. Earum officia fuga veniam. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Culpa eligendi, veniam quod quo, dolores consectetur consequuntur modi impedit officiis minima quam inventore dolor laudantium aperiam quas est! Facilis, odit quo!</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut laudantium incidunt sequi fugit voluptate! Tempora eligendi tenetur repellendus deserunt, incidunt recusandae sapiente commodi quas, id nostrum ducimus voluptatem aliquid facere! Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo voluptatem explicabo accusamus aspernatur quasi exercitationem earum iure dolores veritatis. Laborum aperiam mollitia numquam non blanditiis odio iure debitis consectetur eius.</p>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptatem eos modi porro laboriosam sed ipsum beatae esse cum labore, sunt reprehenderit iste, illum minima? Optio ratione sed sunt numquam praesentium? Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit repudiandae omnis, laudantium excepturi iste vel voluptas assumenda. Repellat modi facere neque nesciunt quisquam voluptates maxime vitae ipsam quidem, unde earum?</p>
+        </article>
+    </main>
+    <script>
+        function clickMenu(){
+           if(itens.style.display== 'block'){
+            itens.style.display='none'
+           }else{
+            itens.style.display= 'block'
+           }
+        }
+    </script>
+</body>
+</html>
